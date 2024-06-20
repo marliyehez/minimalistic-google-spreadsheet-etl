@@ -2,11 +2,11 @@
 
 This project focuses on data engineering for a relatively small dataset related to a music tutoring service. The main objective is to process the data for visualization purposes.
 
+The data, which is manually input by an admin, is sourced from Google Spreadsheets. The processed data will be visualized using Looker Studio. Given the small size of the data (less than 1000 rows), we use pandas for ETL (Extract, Transform, Load) operations. The aggregated results for Looker are stored in the same spreadsheet but on a new sheet. The pandas DataFrame acts as a temporary data warehouse that is cleared with each run. The ETL process is scheduled using GitHub Actions to run at the beginning of each month.
+
 <p align="center">
   <img src="img/architecture.png" width="600">
 <p>
-
-The data, which is manually input by an admin, is sourced from Google Spreadsheets. The processed data will be visualized using Looker Studio. Given the small size of the data (less than 1000 rows), we use pandas for ETL (Extract, Transform, Load) operations. The aggregated results for Looker are stored in the same spreadsheet but on a new sheet. The pandas DataFrame acts as a temporary data warehouse that is cleared with each run. The ETL process is scheduled using GitHub Actions to run at the beginning of each month.
 
 Additionally, unit tests are included and executed using pytest.
 
@@ -28,13 +28,15 @@ Here is the link to the Looker Studio dashboard built using the processed data:
 
 **[ [Looker Studio Dashboard](link) ]**
 
-kasih gambar
+<p align="center">
+  <img src="img/dashboard_pic" width="600">
+<p>
 
 ## How to reproduce this project?
 1. Clone the repository:
 ```bash
-git clone https://github.com/lalala.git # nama yang bener
-cd lalalal # nama yang bener
+git clone https://github.com/marliyehez/minimalistic-google-spreadsheet-etl.git
+cd minimalistic-google-spreadsheet-etl
 ```
 
 2. Install the required Python packages:
