@@ -1,0 +1,1 @@
+pytest .\tests\[filename].py -k [function]
