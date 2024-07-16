@@ -26,10 +26,18 @@ As previously mentioned, the data for this project is sourced from a Google Spre
 ## Dashboard
 Here is the link to the Looker Studio dashboard built using the processed data:
 
-**[ [Looker Studio Dashboard](link) ]**
+**[ [Looker Studio Dashboard](https://lookerstudio.google.com/reporting/a7eb91ba-d603-4083-80a3-49a0dd73c775) ]**
 
 <p align="center">
-  <img src="img/dashboard_pic" width="600">
+  <img src="img/dashboard_home_page.jpg" width="600">
+<p>
+
+<p align="center">
+  <img src="img/dashboard_income_page.jpg" width="600">
+<p>
+
+<p align="center">
+  <img src="img/dashboard_detail_page.jpg" width="600">
 <p>
 
 ## How to reproduce this project?
